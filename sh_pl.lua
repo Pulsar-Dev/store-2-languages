@@ -31,7 +31,15 @@ PulsarStore.Language:Language("pl", 1)
     :Set("error.permissions", "Niewystarczające uprawnienia")
     :Set("error.permissions.message", "Nie masz permisji do zrobienia tego")
     :Set("error.ratelimit", "Wysyłasz zbyt wiele żądań. Poczekaj chwile i spróbuj ponownie.")
-
+    :Set("error.unknown", "Wystąpił nieznany błąd!")
+    :Set("error.unexpected", "Wystąpił nieoczekiwany błąd!")
+    :Set("error.maxconvert", "Osiągnąłeś dzienny limit konwersji wynoszący {{credits}} kredytów!")
+    :Set("error.cannotafford", "Nie możesz sobie na to pozwolić!")
+    :Set("error.cannotafford.currency", "Nie masz wystarczającej ilości {{currency}}, aby kupić ten pakiet!")
+    :Set("error.notfound", "Przedmiot, który próbujesz kupić, nie istnieje!")
+    :Set("error.alreadyown", "Posiadasz już ten przedmiot!")
+    :Set("error.ownwholebundle", "Posiadasz już wszystkie przedmioty w tym pakiecie!")
+    
     -- Main Menu
     :Set("mainmenu.home", "Dom")
     :Set("mainmenu.inventory", "Ekwipunek")
@@ -144,4 +152,9 @@ PulsarStore.Language:Language("pl", 1)
 
     -- Other
     :Set("periodic", "Zostałeś nagrodzony {{creditsCount}} {{plural:credit|creditsCount}} za grę na tym serwerze!")
+    :Set("spawnprop", "Nie posiadasz wymaganego pakietu, aby stworzyć ten {{type}}.")
+    :Set("purchasetooold", "Zwrot zakupu nie jest możliwy, ponieważ został on dokonany ponad {{time}} dni temu.")
+    :Set("success.purchase", "Zakupiono pomyślnie {{item}}!")
+    :Set("success.convert.money", "Przekonwertowałeś {{arg1}} na {{arg2}} kredytów!")
+    :Set("success.convert.credits", "Przekonwertowałeś {{arg1}} na {{arg2}} pieniędzy!")
 :Register()

@@ -31,7 +31,15 @@ PulsarStore.Language:Language("tr", 1)
     :Set("error.permissions", "Yetersiz Yetki")
     :Set("error.permissions.message", "Bunu yapmak için iznin yok!")
     :Set("error.ratelimit", "Çok fazla istek gönderiyorsun lütfen sakinleş ve birazdan tekrar dene!")
-
+    :Set("error.unknown", "Bilinmeyen bir hata oluştu!")
+    :Set("error.unexpected", "Beklenmeyen bir hata oluştu!")
+    :Set("error.maxconvert", "{{credits}} kredilik günlük dönüştürme limitine ulaştınız!")
+    :Set("error.cannotafford", "Bunu karşılayamazsınız!")
+    :Set("error.cannotafford.currency", "Bu paketi satın almak için yeterli {{currency}}'ye sahip değilsiniz!")
+    :Set("error.notfound", "Satın almaya çalıştığınız ürün mevcut değil!")
+    :Set("error.alreadyown", "Bu öğeye zaten sahipsiniz!")
+    :Set("error.ownwholebundle", "Bu paketteki tüm öğelere zaten sahipsiniz!") 
+    
     -- Main Menu
     :Set("mainmenu.home", "Ana Sayfa")
     :Set("mainmenu.inventory", "Envanter")
@@ -144,4 +152,9 @@ PulsarStore.Language:Language("tr", 1)
 
     -- Other
     :Set("periodic", "Sunucuda bulunduğun için {{creditsCount}} {{plural:credit|creditsCount}} Tutarında kredi ile ödülendirildin!")
+    :Set("spawnprop", "Bu {{type}} öğesini oluşturmak için gereken pakete sahip değilsiniz.")
+    :Set("purchasetooold", "Satın alma işlemi {{time}} günden daha uzun bir süre önce yapıldığı için iade edilemez.")
+    :Set("success.purchase", "{{item}} başarıyla satın alındı!")
+    :Set("success.convert.money", "{{arg1}} öğesini {{arg2}} krediye dönüştürdünüz!")
+    :Set("success.convert.credits", "{{arg1}} öğesini {{arg2}} paraya dönüştürdünüz!")
 :Register()
