@@ -3,7 +3,7 @@ PulsarStore.Language:Language("en", 1)
     :Plural("credit")("Credit")("Credits")()
     :Plural("item")("Item")("Items")()
 
-    -- Generic
+-- Generic
     :Set("brand", "Pulsar Store")
     :Set("admin", "Admin")
     :Set("yes", "Yes")
@@ -27,34 +27,34 @@ PulsarStore.Language:Language("en", 1)
     :Set("disabled", "Disabled")
     :Set("item", "{{plural:item|count}}")
 
-    -- Errors
+-- Errors
     :Set("error.permissions", "Insufficient Permissions")
     :Set("error.permissions.message", "You do not have permission to do that.")
     :Set("error.ratelimit", "You are sending too many requests. Please wait a few seconds and try again.")
     :Set("error.unknown", "An unknown error occurred!")
     :Set("error.unexpected", "An unexpected error occurred!")
-    :Set("error.maxconvert", "You have reached the daily conversion limit of {{credits}} credits!")
+    :Set("error.maxconvert", "You have reached the daily conversion limit of {{credits}} credits. You can convert {{allowed}} more credits today!")
     :Set("error.cannotafford", "You cannot afford this!")
     :Set("error.cannotafford.currency", "You do not have enough {{currency}} to purchase this bundle!")
     :Set("error.notfound", "The item you are trying to buy does not exist!")
     :Set("error.alreadyown", "You already own this item!")
     :Set("error.ownwholebundle", "You already own all items in this bundle!")
 
-    -- Main Menu
+-- Main Menu
     :Set("mainmenu.home", "Home")
     :Set("mainmenu.inventory", "Inventory")
     :Set("mainmenu.credits.buymore", "Buy more credits")
     :Set("search", "Search...")
     :Set("search.hidepurchased", "Hide Purchased")
 
-    -- Items
+-- Items
     :Set("item.discountprice", "{{oldprice}} {{newprice}} {{plural:credit|creditsCount}}")
     :Set("item.percentoff", "{{percent}}% off!")
     :Set("item.whatsincluded", "What's included:")
     :Set("item.bundle.creditstext", "{{credits}} - Bundle")
     :Set("item.price", "{{price}} {{plural:credit|creditsCount}}")
 
-    -- Categories
+-- Categories
     :Set("admin.categories", "Categories")
     :Set("admin.categories.create", "Create Category")
     :Set("admin.categories.create.name", "Name")
@@ -77,7 +77,7 @@ PulsarStore.Language:Language("en", 1)
     :Set("admin.categories.delete.failed", "Failed to delete category: {{err}}")
     :Set("admin.categories.delete.confirm", "Are you sure you want to delete this category?")
 
-    -- Packages
+-- Packages
     :Set("admin.packages", "Packages")
     :Set("admin.packages.create", "Create Package")
     :Set("admin.packages.create.name", "Name")
@@ -102,7 +102,7 @@ PulsarStore.Language:Language("en", 1)
     :Set("admin.packages.delete.success", "Package deleted successfully!")
     :Set("admin.packages.delete.failed", "Failed to delete package.")
 
-    -- Bundles
+-- Bundles
     :Set("admin.bundles", "Bundles")
     :Set("admin.bundles.create", "Create Bundle")
     :Set("admin.bundles.create.name", "Name")
@@ -111,7 +111,7 @@ PulsarStore.Language:Language("en", 1)
     :Set("admin.bundles.create.currency", "Currency")
     :Set("admin.bundles.create.icon", "Icon")
     :Set("admin.bundles.create.category", "Category")
-    :Set("admin.packages.create.color", "Color")
+    :Set("admin.bundles.create.color", "Color")
     :Set("admin.bundles.create.next", "Next")
     :Set("admin.bundles.create.bundlepackage", "New Bundle Package")
     :Set("admin.bundles.create.create", "Create")
@@ -123,7 +123,7 @@ PulsarStore.Language:Language("en", 1)
     :Set("admin.bundles.edit.success", "Bundle edited successfully!")
     :Set("admin.bundles.edit.failed", "Failed to edit bundle.")
 
-    -- Discounts
+-- Discounts
     :Set("percentoff", "{{percent}}% off!")
     :Set("discount", "Discount")
     :Set("admin.discounts", "Discounts")
@@ -142,7 +142,7 @@ PulsarStore.Language:Language("en", 1)
     :Set("admin.discounts.items.remove.success", "Item removed successfully!")
     :Set("admin.discounts.items.remove.failed", "Failed to remove item.")
 
-    -- Users
+-- Users
     :Set("admin.users", "Users")
     :Set("admin.users.remove", "Remove")
     :Set("admin.users.remove.success", "Successfully removed purchase!")
@@ -150,11 +150,12 @@ PulsarStore.Language:Language("en", 1)
 
     :Set("admin.home", "Back Home")
 
-    -- Other
+-- Other
     :Set("periodic", "You have been rewarded {{creditsCount}} {{plural:credit|creditsCount}} for playing on the server!")
     :Set("spawnprop", "You do not own the package required to spawn this {{type}}.")
     :Set("purchasetooold", "Cannot return purchase as it was bought more than {{time}} days ago.")
     :Set("success.purchase", "Successfully purchased {{item}}!")
-    :Set("success.convert.money", "You have converted {{arg1}} to {{arg2}} credits!")
+    :Set("success.convert.money", "You have converted ${{arg1}} to {{arg2}} credits!")
+    :Set("success.convert.money.left", "You have converted ${{arg1}} to {{arg2}} credits. You can convert {{allowed}} more credits today!")
     :Set("success.convert.credits", "You have converted {{arg1}} to {{arg2}} money!")
 :Register()
