@@ -1,4 +1,4 @@
-PulsarStore.Language:Language("ptbr", 1)
+PulsarStore.Language:Language("pt-BR", 1)
     :Plural("argument")("Argumento")("Argumentos")()
     :Plural("credit")("Crédito")("Créditos")()
     :Plural("item")("Item")("Itens")()
