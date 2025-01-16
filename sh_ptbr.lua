@@ -1,4 +1,4 @@
-PulsarStore.Language:Language("ptbr", 1)
+PulsarStore.Language:Language("ptbr", {[0] = true, [1] = true})
     :Plural("argument")("Argumento")("Argumentos")()
     :Plural("credit")("Crédito")("Créditos")()
     :Plural("item")("Item")("Itens")()
