@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 PulsarStore.Language:Language("pt-BR", 1)
+=======
+PulsarStore.Language:Language("ptbr", {[0] = true, [1] = true})
+>>>>>>> 1cd5e6f8d7c866363bdcc4a10a15cc014dbe6bd1
     :Plural("argument")("Argumento")("Argumentos")()
     :Plural("credit")("Crédito")("Créditos")()
     :Plural("item")("Item")("Itens")()
